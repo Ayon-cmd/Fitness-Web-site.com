@@ -1,0 +1,1093 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+
+/* -------------Header Section------------- */
+/* -------------Header Section------------- */
+header {
+    
+    box-shadow: 0rem 0rem 1rem 0rem #D1D4D9;
+    height: 68px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+      
+}
+
+/* -------------Drop-down Section------------- */
+.drop-down {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+
+
+ul {
+
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+li {
+
+    list-style: none;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #252C3A;
+     
+}
+
+ul li {
+
+    margin-right: 3.625rem;
+    text-transform: uppercase;
+    padding: 23px 0px;
+
+}
+
+/* ---------Hover Section css----------- */
+/* ---------Hover Section css----------- */
+
+
+ul li:hover {
+
+    box-shadow:0px 2px 0px red;
+    box-shadow:0rem 0.125rem 0rem red;
+    
+}
+
+.logo {
+
+    height: 2.625rem;
+    padding-top: 0.75rem;
+}
+
+
+.sub-menu {
+    
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;      
+        
+}
+
+.sub-menu li a {
+
+    color: black;
+      
+}
+
+.sub-menu li {
+
+    font-size: 1rem;
+    text-align: left;    
+
+}
+
+
+ul li ul li {
+    display: none;
+     
+}
+
+
+ul li:hover ul li {
+
+    display: block;
+   
+}
+
+
+/*------------- img-section-------------- */
+/*------------- img-section-------------- */
+
+.img-section{
+
+    height: 97vh;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    
+   
+}
+
+/* ---------------Position-BOX Section------------------- */
+/* ---------------Position-BOX Section------------------- */
+
+
+
+.position-main {
+
+    display: flex;
+    position: absolute;
+    
+}
+
+.positionn-box{
+
+    width: 23.625rem;
+    height: 18.125rem;
+    border: 1px solid hsl(225, 6%, 87%); 
+    text-align: center;
+    transform: translate(22rem);
+    margin-top: -10rem;
+    background-color:#FFFFFF;
+  
+}
+
+.positionn-box {
+
+    display: flex;
+    align-items: center;
+    box-shadow: 0rem 0.625rem 0.625rem#E7E7E9;
+    
+   
+}
+
+.natural-main {
+
+    font-size: 1rem;
+    transform: translateX(60%);
+    text-transform: uppercase;
+   
+    
+}
+
+
+.natural-mains {
+
+    font-size: 1rem;
+    transform: translateX(70%);
+    text-transform: uppercase;
+
+}
+
+.natural-mainss {
+
+    font-size: 1rem;
+    transform: translateX(30%);
+    text-transform: uppercase;
+
+}
+
+.hand-main {
+
+    transform: translateX(60%);
+     
+}
+
+.button-more {
+
+    transform: translateX(44%);
+    color: #FF8282;
+
+}
+
+
+
+.button-mores {
+
+    transform: translateX(33%);
+    color: #FF8282;
+}
+.second-class {
+
+    height: 80vh;
+    background-color: #fffff;
+
+}
+
+
+/* ---------- video-section -------- */
+/* ---------- video-section -------- */
+
+
+.video-section {
+
+    height: 79.75rem;
+    width: 64.25rem ;
+    
+}
+
+
+.video-section {
+
+    text-align: center;
+    padding-top: 25rem;
+
+    
+}
+
+
+.main-para {
+
+    display: flex;
+    padding-top: 6.25rem;
+    
+   
+}
+
+
+.main-paras {
+
+    transform: translateX(25rem);
+    width: 20%;
+    color: #E74C3C;
+    font-size: 1.5625rem;
+}
+
+
+.tan-img {
+
+    transform: translateX(35rem);   
+}
+
+.main-parasss {
+
+    transform: translateX(40rem);
+    width: 50%;
+    font-size: 1rem;
+
+}
+
+
+.video-menu {
+
+    padding-top: 10rem;
+    text-align: center;
+    transform: translateX(18rem);
+    
+}
+
+.video-drop {
+    
+    height: 36rem;
+ 
+    box-shadow: -12.5rem -12.5rem 0rem -9.0625rem #e74c3c;
+    
+}
+
+
+/* ===========Discover-main Section================== */
+
+
+.Discover-main {
+    width: 110%;
+    height: 40rem;
+    background-color:#E74C3C;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.Discover-para {
+
+    padding-top: 10rem;
+    font-size: 2.1875rem;
+    text-transform: uppercase;
+    width: 100%;
+    transform: translateX(-8rem);
+    
+   
+}
+
+/* ----------Disover-Button-Main------------ */
+
+.disover-button-main {
+
+    width: 30rem;
+    height: 7.1875rem;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 2rem;
+    color: red;
+    border: none;
+    transform: translateX(-8rem);
+}
+
+/* -------------.FINTNESS MODEL Section------------------ */
+
+.fitnes-model {
+
+    height: 143.25rem;
+}
+
+.para-fitnes {
+
+    padding-top: 6.8125rem;
+    text-align: center;
+    transform: translateX(50rem);
+    width: 20%;
+}
+
+.img-tag {
+
+    padding-top: 6.3125rem;
+    text-align: center;
+    transform: translateX(-7rem);
+}
+
+.img-tags {
+
+    padding-top: 7.3125rem;
+    text-align: center;
+    transform: translateX(-7rem);
+}
+
+/* ================ICON SPARAGRAPF SECTION==================== */
+
+.icon-para {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    
+}
+
+.icon-parag {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    font-size: 1.5rem;
+}
+
+.icon-plus {
+
+    border: 5px solid black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+    
+}
+
+
+.icon-name {
+
+    width: 70%;
+   transform: translateX(2rem);
+}
+
+.icon-plus .fas {
+
+transform: translateY(1.2rem);
+font-size: 2.187rem;
+
+margin-top: -0.6rem;
+
+}
+
+
+hr {
+
+    width: 70%;
+}
+
+
+
+
+/* ===================Fitness-From Section ================ */
+
+.fitness-from {
+
+    height: 90.754rem;
+    background-color: #e74c3c;
+    text-align: center;
+    padding-top: 10rem;
+    color:#ffffff;
+    
+}
+
+
+.mind-over {
+
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:#ffffff;
+   
+    
+
+}
+
+.fitness-main {
+
+
+}
+
+
+h1 {
+ 
+    font-size: 4.800rem;
+    padding-top: 9rem;
+
+}
+
+
+.fropm-box {
+
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+
+.from-small {
+
+    background-color:#E74C3C;
+    box-shadow: 5px 0px 15px 10px #D94334;
+    width: 19.6875rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: none;
+    height: 9rem;
+    margin-top: 9.687rem;
+
+
+}
+
+
+
+
+.middle-class {
+
+    color: #000000;
+    
+
+   
+}
+
+
+.from-paragraph {
+
+    margin-top: 8rem;
+
+    font-size: 1rem;
+    transform: translateX(-14rem);
+}
+
+
+.from-main {
+
+    padding-top: 2rem;
+
+}
+
+
+
+
+/* ==================Rule-section========================== */
+
+.Rule-section {
+
+    height: 38rem;
+    transform: translateX(45rem);
+    padding-top: 12rem;
+}
+
+h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+span {
+
+    color: red;
+}
+
+.protein-para {
+
+    font-size: 1rem;
+}
+
+
+
+.Rule-sections {
+
+    background-color: #000000;
+    color: #ffffff;
+    height: 34rem;
+    padding-top: 12rem;
+    font-size: 1rem;
+    padding-left: 20rem;
+  
+}
+
+
+
+
+.Rule-section3 {
+
+    height: 33rem;
+    text-align: center;
+    padding-left: 10rem;
+    padding-top: 12rem;
+}
+
+
+
+/* ===================our-product======================= */
+
+.our-product {
+    
+    height: 57rem;
+    background-color: #f5f5f5;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.our-para {
+
+    text-align: center;
+}
+
+
+.box-item {
+    
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    justify-content: space-around;
+    height: 15rem;
+    border: 1px solid #ffff;
+    margin-top: 10rem;
+}
+
+.box-six {
+
+    border: 5px solid #ffff;
+    
+    width: 20.25rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 00.725rem#E7E7E9;
+    
+}
+
+
+.box-sixx {
+
+   
+    
+    width: 20.25rem;
+    text-align: center;
+    background-color:#e74c3c;
+    
+}
+
+.our-para {
+
+    padding-top: 10rem;
+}
+
+
+
+/* ========================icon-section=============================== */
+
+
+.icon-section {
+
+    height: 55rem;
+    background-color:#e74c3c;
+    color:  #ffff;
+    
+
+}
+
+
+
+
+.icon-main {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.formula-icon {
+
+    margin: 24px 0px;
+    padding-top: 5rem;
+
+   
+}
+
+
+.formula-icons {
+
+    margin: 24px 0px;
+    padding-top: 5rem;
+
+    margin-left: 15rem;
+}
+
+
+
+
+.icon-pluss {
+
+    border: 5px solid #ffff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 7rem;
+    margin-right: 15rem;
+    
+    
+    
+    
+}
+
+.icon-plusss {
+
+    border: 5px solid #ffff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 7rem;
+    margin-right: 5rem;
+}
+
+
+
+.icon-pluss .fas {
+
+    transform: translateY(1.2rem);
+    font-size: 2.187rem;
+    
+    margin-top: -0.6rem;
+    color: #ffff;
+    
+    }
+
+
+    
+.icon-plusss .fas {
+
+    transform: translateY(1.2rem);
+    font-size: 2.187rem;
+    
+    margin-top: -0.6rem;
+    color: #ffff;
+
+   
+    
+    }
+
+
+    .new-test {
+
+        height: 50rem;
+    
+        display: grid;
+        grid-template-columns: auto auto  ;
+        text-align: center;
+    }
+
+
+/* ========================Step Man========================= */
+
+
+
+
+
+.step-man {
+
+    height: 70rem;
+  
+    background-color: white;
+    margin-top: 5rem;
+    width: 117rem;
+}
+
+
+
+   
+.main-man {
+
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.row {
+
+    padding: 2rem;
+    margin-top: 9rem;
+    
+
+}
+
+.main-mann {
+
+    
+    border-radius: 50%;
+    height: 7.5rem;
+    width: 7.5rem;
+    background-image:  url("img/5.png");
+    background-repeat: no-repeat;
+}
+
+
+h6 {
+
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+
+
+
+.test-item {
+
+    height: 25rem;
+    background-color: #a7a8a5;
+}
+
+
+
+.test-item ul {
+
+    float: right;
+    display: inline;
+
+
+}
+
+
+
+
+.row {
+
+    text-transform: uppercase;
+}
+
+
+.super-man {
+
+    text-transform: none;
+}
+
+.red-box {
+
+    color: red;
+
+}
+
+h1 {
+
+    text-transform: uppercase;
+}
+
+.follow {
+
+    font-size: 1.5rem;
+}
+
+.step-man {
+
+    color: black;
+}
+
+
+
+
+.Get-shape {
+
+    background-color: #e74c3c;
+    height: 37rem;
+}
+
+.join-para {
+    font-size: 1.5rem;
+}
+
+.get-para {
+
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+
+
+.footer-section {
+    display: flex;
+    height: 9rem;
+    background-color: #ffffff;
+    
+    justify-content: center;
+    
+
+}
+
+.footer-list {
+    float: right;
+    text-transform: uppercase;
+    
+
+}
+
+
+.copy-right {
+
+   text-align: center;
+   text-transform: uppercase;
+  
+   
+}
+
+
+
+.footer-list  li a{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Rule-section {
+
+        padding-right: 102rem;
+    }
+
+    .from-main {
+        padding-left: 15rem;
+        height: min-content;
+
+    }
+
+
+    .from-menu {
+
+        padding-left: 15rem;
+    }
+
+    .fitness-from {
+        margin-top: 50rem;
+        height: 110rem;
+
+       
+    }
+
+    .disover-button {
+
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+    }
+
+
+
+    .Discover-para {
+
+        padding-left: 3rem;
+        font-size: 1rem;
+    }
+
+
+    .Discover-main {
+
+        margin-top: 13rem;
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .main-paras {
+        width: 30%;
+        transform: translateX(100);
+        margin-right: 100%;
+    }
+
+    .video-section {
+        width: 100%;
+    }
+
+    .natural-mains {
+
+        font-size: 0.5rem;
+
+ 
+        transform: translateX(-1px);
+    }
+    .natural-mainss {
+
+        font-size: 0.5rem;
+
+ 
+        transform: translateX(-1px);
+    }
+
+    .button-mores{
+        transform: translateX(-1.5rem);
+        font-size: 0.5rem;
+
+    }
+    .button-more{
+        transform: translateX(-1.5rem);
+        font-size: 0.5rem;
+
+    }
+
+    .hand-main{
+
+        transform: translateX(-10px);
+    }
+
+    .natural-main {
+        font-size: 0.5rem;
+        transform: translateX(-1px);
+
+        
+   
+    }
+
+    .position-box {
+        
+       display: flexbox;
+       
+       
+        
+    }
+
+    .positionn-box {
+        width: 100%;
+       transform: translateX(12rem);
+
+      
+       
+       
+
+      
+    }
+
+    .positionn-box {
+         width: 10.625rem;
+    height: 10.125rem;
+    border: 1px solid hsl(225, 6%, 87%); 
+    text-align: center;
+    transform: translate(22rem);
+    margin-top: -6rem;
+    background-color:#FFFFFF;
+
+    }
+
+        .img-section {
+           height: auto;
+        }
+
+
+
+
+    .drop-down ul {
+        
+        
+        flex-direction: column;
+        
+        
+      
+    }
+    .fa {
+
+        position: absolute;
+    }
+
+
+    .sub-menu li a{
+
+        text-align: center;
+        
+    }
+    .sub-menu li {
+      
+       width: auto;
+        background-color: aqua;
+        padding-left: 15px;
+        margin-left: 50px;
+        
+        mar
+      
+    
+    }
+
+    .drop-down ul li a {
+
+        display: flex;
+        
+        
+        width: 100%;
+        
+        
+    }
+    header {
+      background-color: lightblue;
+      width: 100%;
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+        .img-section {
+
+           w
+        }
+
+  }
+
+
+
+
+
+
+
+
+
+
