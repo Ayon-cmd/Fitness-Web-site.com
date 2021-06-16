@@ -76,64 +76,74 @@ ul li:hover {
 .banner-section {
   height: 74rem; 
 }
-.img-foot {
+.banner-img {
   width: 100%;
- height: 65rem;
+  height: 65rem;
+  position: relative;
 }
-.position-item {
+.main-position-box {
+  /* display: flex;
+  /* justify-content: center; */
+  /* padding-left: 25rem;
+  padding-right: 25rem; */
+  /* transform: translateY(-10rem);
+  width: 72.1rem;
+  height: 18.28rem;  */
   width: 72.1rem;
   height: 18.28rem;
   font-family: "Roboto";
-  font-weight: bold;
+  
   display: flex;
   justify-content: center;
   transform: translateY(-10rem);
   margin-left: 25rem;
   background-color: #fff;
-  box-shadow: 0px 20px 5px 0px #e8e8ea;
+  box-shadow: 0px 05px 20px rgb(204, 204, 204);
 }
 .position-box {
-  background-color: #ffff;
-  width: 24rem;
-  height: 18.23rem;
-  box-shadow:inset -10px 0px 25px #e8e8ea;
-}
-.positionn-box {
-  background-color: #ffffff;
-  width: 24rem;
-  height: 18.23rem;
-}
-.positions-box {
-  background-color: #ffffff;
-  width: 24rem;
-  height: 18.23rem;
-  box-shadow:inset 10px 0px 25px #e8e8ea;
-}
-.body {
-  margin-right: 3rem;
-}
-.row-position {
   display: flex;
   justify-content: center;
-  margin-top: 7rem;
+  width: 33.33%;
+  height: 18.23rem;
+  box-shadow: 0px 0px 1px 0px grey;
+  background-color: #fff;
+}
+.position-box2 {
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+  height: 18.23rem;
+  box-shadow: 1px 2px 1px 0px #cccbcb, -1px 1px 1px 0px #e8e8ea;
+  background-color: #fff;
+}
+.nature-img {
+  margin-top: 8rem;
+  padding-right: 2rem;
+  
+}
+.nature-img2 {
+  margin-top: 8rem;
+  padding-left: 1rem;
+  width: 1rem;
+}
+.nature-blog {
+  margin-top: 8rem;
+  padding-right: 5rem;
+  
+}
+.nature-blog p {
   word-spacing: 5px;
   text-transform: uppercase;
+  line-height: 2rem;
+  font-weight: bold;
 }
-.body-music {
-  line-height: 1.5em;
-}
-.view-row {
-  color: #ff9999;
-  text-transform: uppercase;
-  margin-left: 5.6rem;
-  text-decoration: none;
-}
-.view-rows {
-  color: #e74c3c;
-  text-transform: uppercase;
-  margin-left: 5.6rem;
-  text-decoration: none;
+.view-more {
   margin-top: 1rem;
+  text-transform: uppercase;
+}
+.view-more a {
+  text-decoration: none;
+  color: #ff9999;
 }
 /* end img section  */
 /* start video section  */
